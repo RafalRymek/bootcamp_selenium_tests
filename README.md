@@ -4,7 +4,7 @@ Automated API tests to cover endpoints from https://reqres.in/{resource}
 
 ### Following tech stack is using:
 
-python
+python  
 pytest
 
 ## Setup:  
