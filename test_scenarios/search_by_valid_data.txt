@@ -1,0 +1,8 @@
+Scenario Search by valid data
+
+When I go to “http://automationpractice.com/index.php“ site
+And I type 'Printed dress' in the elastic search field
+Then 5 goods are presented in the elastic search dropdown
+When I click [Search] button
+Then search results block is presented
+nd 5 goods are presented in results block

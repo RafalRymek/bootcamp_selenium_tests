@@ -1,0 +1,10 @@
+Scenario Registration with correct data
+
+When I go to “http://automationpractice.com/index.php“ site
+  And I click [Sign in] button
+  And  I fill ‘email address’ field in Create an account block
+  And I click [Create an account] button in Create an account block
+ Then create an account page is presented
+When I fill all mandatory fields on create an account page
+  And I click [Register] button on create an account page
+ Then I’m logged in to application

@@ -1,0 +1,16 @@
+Scenario Add to Cart
+
+When I go to “http://automationpractice.com/index.php“ site
+  And I type 'Dress' in the elastic search field
+  And I click [Search] button
+ Then search results block is presented
+   And at least 1 good is presented in result block
+When I click [Add to cart] button for any good from result block
+ Then adding to card confirmation popup is presented on the page
+When I close adding to card confirmation popup
+   And I hover mouse coursor on “Cart“ icon
+ Then expanded Cart popup is presented
+   And 1 good is presented in Cart popup
+ When I click [Check out] button in expanded Cart popup
+ Then shopping-cart summary page is presenting
+   And 1 good is presented on shopping-cart summary page
