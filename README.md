@@ -1,6 +1,6 @@
-# Bootcamp API automated tests
+# Bootcamp Selenium automated tests
 
-Automated API tests to cover endpoints from https://reqres.in/{resource}
+Automated selenium tests of http://automationpractice.com/
 
 ### Following tech stack is using:
 
